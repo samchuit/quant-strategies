@@ -1,0 +1,30 @@
+[
+  {
+    "name": "海龟交易法则",
+    "category": "futures",
+    "type": "趋势跟踪",
+    "complexity": "基础",
+    "logic": "突破N日高低点入场，ATR止损",
+    "indicators": "突破点、ATR",
+    "language": "Python",
+    "data_requirements": "日级期货行情数据",
+    "source": "经典CTA策略",
+    "references": "https://en.wikipedia.org/wiki/Turtle_traders",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  },
+  {
+    "name": "Dual Thrust策略",
+    "category": "futures",
+    "type": "趋势跟踪",
+    "complexity": "基础",
+    "logic": "基于开盘价和收盘价计算上下轨，突破上轨做多，突破下轨做空",
+    "indicators": "最高价、最低价、开盘价、收盘价",
+    "language": "Python",
+    "data_requirements": "日级期货行情数据",
+    "source": "经典日内交易策略",
+    "references": "https://www.quantconnect.com/tutorials/strategy-library/dual-thrust-trading-algorithm",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  }
+]

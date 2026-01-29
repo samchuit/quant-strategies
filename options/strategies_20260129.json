@@ -1,0 +1,30 @@
+[
+  {
+    "name": "备兑认购策略",
+    "category": "options",
+    "type": "收入策略",
+    "complexity": "基础",
+    "logic": "持有股票的同时卖出认购期权，获取权利金收入",
+    "indicators": "隐含波动率、Delta",
+    "language": "Python",
+    "data_requirements": "期权链数据、股票数据",
+    "source": "经典期权策略",
+    "references": "https://www.investopedia.com/terms/c/coveredcall.asp",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  },
+  {
+    "name": "跨式组合策略",
+    "category": "options",
+    "type": "波动率交易",
+    "complexity": "中级",
+    "logic": "同时买入相同行权价和到期日的认购和认沽期权，赌波动率上升",
+    "indicators": "隐含波动率、Vega",
+    "language": "Python",
+    "data_requirements": "期权链数据",
+    "source": "经典期权策略",
+    "references": "https://www.investopedia.com/terms/s/straddle.asp",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  }
+]

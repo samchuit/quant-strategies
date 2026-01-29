@@ -1,0 +1,3 @@
+﻿name,category,type,complexity,logic,indicators,language,data_requirements,source,references,added_date,last_updated
+海龟交易法则,futures,趋势跟踪,基础,突破N日高低点入场，ATR止损,突破点、ATR,Python,日级期货行情数据,经典CTA策略,https://en.wikipedia.org/wiki/Turtle_traders,2026-01-29,2026-01-29
+Dual Thrust策略,futures,趋势跟踪,基础,基于开盘价和收盘价计算上下轨，突破上轨做多，突破下轨做空,最高价、最低价、开盘价、收盘价,Python,日级期货行情数据,经典日内交易策略,https://www.quantconnect.com/tutorials/strategy-library/dual-thrust-trading-algorithm,2026-01-29,2026-01-29

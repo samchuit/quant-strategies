@@ -1,0 +1,30 @@
+[
+  {
+    "name": "比特币动量策略",
+    "category": "crypto",
+    "type": "趋势跟踪",
+    "complexity": "基础",
+    "logic": "基于比特币价格动量进行趋势交易",
+    "indicators": "价格动量、移动平均",
+    "language": "Python",
+    "data_requirements": "加密货币分钟级/日级数据",
+    "source": "加密货币经典策略",
+    "references": "https://github.com/quantopian/research_public",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  },
+  {
+    "name": "跨交易所套利",
+    "category": "crypto",
+    "type": "统计套利",
+    "complexity": "中级",
+    "logic": "利用不同交易所之间的价格差异进行套利",
+    "indicators": "价差、交易费用",
+    "language": "Python",
+    "data_requirements": "多交易所实时行情数据",
+    "source": "加密货币特有策略",
+    "references": "https://www.coindesk.com/learn/crypto-arbitrage/",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  }
+]

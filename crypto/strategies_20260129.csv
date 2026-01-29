@@ -1,0 +1,3 @@
+﻿name,category,type,complexity,logic,indicators,language,data_requirements,source,references,added_date,last_updated
+比特币动量策略,crypto,趋势跟踪,基础,基于比特币价格动量进行趋势交易,价格动量、移动平均,Python,加密货币分钟级/日级数据,加密货币经典策略,https://github.com/quantopian/research_public,2026-01-29,2026-01-29
+跨交易所套利,crypto,统计套利,中级,利用不同交易所之间的价格差异进行套利,价差、交易费用,Python,多交易所实时行情数据,加密货币特有策略,https://www.coindesk.com/learn/crypto-arbitrage/,2026-01-29,2026-01-29

@@ -1,0 +1,4 @@
+﻿name,category,type,complexity,logic,indicators,language,data_requirements,source,references,added_date,last_updated
+双均线策略,stocks,趋势跟踪,基础,短期均线上穿长期均线时买入，下穿时卖出,"SMA, EMA",Python,日级行情数据,传统技术分析,https://www.investopedia.com/terms/m/movingaverage.asp,2026-01-29,2026-01-29
+RSI超买超卖策略,stocks,均值回归,基础,RSI低于30超卖买入，高于70超买卖出,RSI,Python,日级行情数据,传统技术分析,https://www.investopedia.com/terms/r/rsi.asp,2026-01-29,2026-01-29
+配对交易策略,stocks,统计套利,中级,寻找相关性高的股票对，做多低估股票，做空高估股票,协整关系、价差Z-score,Python,多股票日级行情数据,统计套利经典策略,https://en.wikipedia.org/wiki/Pairs_trade,2026-01-29,2026-01-29

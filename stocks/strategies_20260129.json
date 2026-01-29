@@ -1,0 +1,44 @@
+[
+  {
+    "name": "双均线策略",
+    "category": "stocks",
+    "type": "趋势跟踪",
+    "complexity": "基础",
+    "logic": "短期均线上穿长期均线时买入，下穿时卖出",
+    "indicators": "SMA, EMA",
+    "language": "Python",
+    "data_requirements": "日级行情数据",
+    "source": "传统技术分析",
+    "references": "https://www.investopedia.com/terms/m/movingaverage.asp",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  },
+  {
+    "name": "RSI超买超卖策略",
+    "category": "stocks",
+    "type": "均值回归",
+    "complexity": "基础",
+    "logic": "RSI低于30超卖买入，高于70超买卖出",
+    "indicators": "RSI",
+    "language": "Python",
+    "data_requirements": "日级行情数据",
+    "source": "传统技术分析",
+    "references": "https://www.investopedia.com/terms/r/rsi.asp",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  },
+  {
+    "name": "配对交易策略",
+    "category": "stocks",
+    "type": "统计套利",
+    "complexity": "中级",
+    "logic": "寻找相关性高的股票对，做多低估股票，做空高估股票",
+    "indicators": "协整关系、价差Z-score",
+    "language": "Python",
+    "data_requirements": "多股票日级行情数据",
+    "source": "统计套利经典策略",
+    "references": "https://en.wikipedia.org/wiki/Pairs_trade",
+    "added_date": "2026-01-29",
+    "last_updated": "2026-01-29"
+  }
+]

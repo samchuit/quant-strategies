@@ -1,0 +1,3 @@
+﻿name,category,type,complexity,logic,indicators,language,data_requirements,source,references,added_date,last_updated
+备兑认购策略,options,收入策略,基础,持有股票的同时卖出认购期权，获取权利金收入,隐含波动率、Delta,Python,期权链数据、股票数据,经典期权策略,https://www.investopedia.com/terms/c/coveredcall.asp,2026-01-29,2026-01-29
+跨式组合策略,options,波动率交易,中级,同时买入相同行权价和到期日的认购和认沽期权，赌波动率上升,隐含波动率、Vega,Python,期权链数据,经典期权策略,https://www.investopedia.com/terms/s/straddle.asp,2026-01-29,2026-01-29
